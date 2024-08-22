@@ -17,7 +17,6 @@
         "typescript/no-confusing-non-null-assertion": "error",
         "eslint/eqeqeq": "error",
         "eslint/default-case-last": "error",
-        "eslint/sort-imports": "error",
         "typescript/array-type": "error",
         "import/no-cycle ": "warn",
         "typescript/no-non-null-assertion": "warn",
