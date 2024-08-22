@@ -17,6 +17,7 @@
     ],
     "scripts": {
         "fmt": "prettier --check .",
+        "fmt:fix": "prettier --write .",
         "lint": "oxlint --config ./oxlint/base.json"
     },
     "prettier": "./prettier/index.mjs",
