@@ -1,0 +1,50 @@
+{
+    "name": "@thearturca/shared-configs",
+    "version": "1.0.0",
+    "description": "personal configs for typescript, prettier and oxlint",
+    "license": "MIT",
+    "author": "thearturca - <arti.1046@gmail.com>",
+    "type": "module",
+    "exports": {
+        "./prettier": "./prettier/index.mjs",
+        "./oxlint": "./oxlint/base.json",
+        "./tsconfig": "./tsconfig/base.json"
+    },
+    "files": [
+        "prettier",
+        "oxlint",
+        "tsconfig"
+    ],
+    "scripts": {
+        "fmt": "prettier --check .",
+        "lint": "oxlint --config ./oxlint/base.json"
+    },
+    "prettier": "./prettier/index.mjs",
+    "devDependencies": {
+        "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+        "oxlint": "^0.7.2",
+        "prettier": "^3.3.3",
+        "prettier-plugin-packagejson": "^2.5.1",
+        "typescript": "^5.5.4"
+    },
+    "peerDependencies": {
+        "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+        "oxlint": ">=0.7.0 <1",
+        "prettier": ">=3.0.0 <4",
+        "typescript": ">=5.0.0 <6"
+    },
+    "peerDependenciesMeta": {
+        "oxlint": {
+            "optional": true
+        },
+        "prettier": {
+            "optional": true
+        },
+        "typescript": {
+            "optional": true
+        }
+    },
+    "engines": {
+        "node": ">=20"
+    }
+}
