@@ -9,7 +9,7 @@ import prettierPluginPackageJson from "prettier-plugin-packagejson";
 const config = {
     endOfLine: "lf",
     trailingComma: "all",
-    arrowParens: "avoid",
+    arrowParens: "always",
     semi: true,
     useTabs: false,
     singleQuote: false,
