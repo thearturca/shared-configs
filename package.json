@@ -30,7 +30,7 @@
     "devDependencies": {
         "oxlint": "^1.11.1",
         "prettier": "^3.3.3",
-        "typescript": "^5.5.4"
+        "typescript": "^6.0.2"
     },
     "peerDependencies": {
         "@ianvs/prettier-plugin-sort-imports": "4.1.1",
