@@ -10,17 +10,17 @@ importers:
     dependencies:
       '@ianvs/prettier-plugin-sort-imports':
         specifier: ^4.3.1
-        version: 4.7.1(prettier@3.8.1)
+        version: 4.7.1(prettier@3.8.3)
       prettier-plugin-packagejson:
         specifier: ^3.0.0
-        version: 3.0.0(prettier@3.8.1)
+        version: 3.0.0(prettier@3.8.3)
     devDependencies:
       oxlint:
         specifier: ^1.11.1
         version: 1.50.0
       prettier:
         specifier: ^3.3.3
-        version: 3.8.1
+        version: 3.8.3
       typescript:
         specifier: ^5.5.4
         version: 5.9.3
@@ -278,8 +278,8 @@ packages:
       prettier:
         optional: true
 
-  prettier@3.8.1:
-    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+  prettier@3.8.3:
+    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -359,13 +359,13 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@ianvs/prettier-plugin-sort-imports@4.7.1(prettier@3.8.1)':
+  '@ianvs/prettier-plugin-sort-imports@4.7.1(prettier@3.8.3)':
     dependencies:
       '@babel/generator': 7.29.1
       '@babel/parser': 7.29.0
       '@babel/traverse': 7.29.0
       '@babel/types': 7.29.0
-      prettier: 3.8.1
+      prettier: 3.8.3
       semver: 7.7.4
     transitivePeerDependencies:
       - supports-color
@@ -489,13 +489,13 @@ snapshots:
 
   picomatch@4.0.3: {}
 
-  prettier-plugin-packagejson@3.0.0(prettier@3.8.1):
+  prettier-plugin-packagejson@3.0.0(prettier@3.8.3):
     dependencies:
       sort-package-json: 3.6.0
     optionalDependencies:
-      prettier: 3.8.1
+      prettier: 3.8.3
 
-  prettier@3.8.1: {}
+  prettier@3.8.3: {}
 
   semver@7.7.3: {}
 
