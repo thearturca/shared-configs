@@ -59,6 +59,6 @@
     },
     "respository": {
         "type": "git",
-        "url": "https://github.com/thearturca/shared-configs"
+        "url": "git+https://github.com/thearturca/shared-configs.git"
     }
 }
