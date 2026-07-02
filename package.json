@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "private": false,
     "description": "personal configs for typescript, prettier and oxlint",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thearturca/shared-configs"
+    },
     "license": "MIT",
     "author": "thearturca - <arti.1046@gmail.com>",
     "type": "module",
@@ -56,9 +60,5 @@
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org/"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/thearturca/shared-configs"
     }
 }
