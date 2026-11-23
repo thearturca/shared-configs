@@ -15,7 +15,6 @@
         "import/no-self-import": "error",
         "oxc/misrefactored-assign-op": "error",
         "typescript/no-confusing-non-null-assertion": "error",
-        "eslint/eqeqeq": "error",
         "eslint/default-case-last": "error",
         "typescript/array-type": "warn",
         "import/no-cycle": "warn",
